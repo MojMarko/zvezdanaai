@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: zvezdana-ai
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: OPENAI_API_KEY
+        value: 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
